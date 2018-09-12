@@ -1,0 +1,220 @@
+.contact{
+   width: 100%;
+   height: 100%;
+   background-image: url("../images/contact-image.jpg");
+   background-position: center;
+   background-size: cover;
+
+   &__image--overlay{
+      height: 100%;
+      width: 100%;
+      /* padding-left: 200px; */
+      background-color: rgba(0, 0, 0, .7);
+   }
+
+   &__content{
+      position: relative;
+      top: 10%;
+      box-sizing: border-box;
+      width: 800px;
+      height: 650px;
+      margin: 0 auto;
+
+      @include respond(small-desktop){
+         width: 700px;
+      }
+
+      @include respond(tab-land){
+         width: 600px;
+      }
+
+      @include respond(tab-port){
+         top: 30%;
+         width: 500px;
+      }
+
+      @include respond(phone){
+         top: 30%;
+         width: 100%;
+      }
+   }
+
+   &__content--center{
+      position: relative;
+      top: 50%;
+      left: 100px;
+      transform: translateY(-50%);
+
+      @include respond(tab-port){
+         left: 0;
+         top: 200px;
+      }
+   }
+
+   &__map{
+      box-sizing: border-box;
+      width: 100%;
+      height: 300px;
+      background-color: rgba(40, 40, 40, .9);
+   }
+
+   &__map__image{
+      box-sizing: border-box;
+      width: 100%;
+      height: 100%;
+      padding: 20px;
+   }
+
+   &__form-container{
+      box-sizing: border-box;
+      width: 100%;
+      height: 400px;
+      padding: 20px;
+      background-color: rgba(40, 40, 40, .9);
+   }
+
+   &__form{
+      width: 100%;
+      height: 250px;
+   }
+
+   &__address{
+      position: relative;
+      top: 0;
+      left: 0;
+      height: 100px;
+      width: 100%;
+      text-align: center;
+   }
+
+   &__address-text{
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      color: rgb(230, 230, 230);
+      font-size: 18px;
+   }
+}
+
+.first-name__input{
+   float: left;
+   width: 50%;
+   height: 65px;
+   margin-bottom: 20px;
+}
+
+.label__first-name{
+   width: 40%;
+   font-size: 21px;
+   color: rgb(120, 120, 120);
+}
+
+.input__first-name{
+   width: 90%;
+   height: 60%;
+   padding: 4px;
+   font-size: 20px;
+   color: rgb(120, 120, 120);
+   border-style: none;
+   background-color: rgb(20, 20, 20);
+   border: 1px solid rgb(35, 35, 35);
+
+   &__first-name:focus{
+      outline: none;
+      border-bottom: 2px solid green;
+   }
+}
+
+
+
+.second-name__input{
+   float: left;
+   width: 50%;
+   height: 65px;
+   margin-bottom: 20px;
+}
+
+.label__second-name{
+   width: 40%;
+   font-size: 21px;
+   color: rgb(120, 120, 120);
+}
+
+.input__second-name{
+   width: 90%;
+   height: 60%;
+   padding: 4px;
+   font-size: 20px;
+   color: rgb(120, 120, 120);
+   text-decoration: none;
+   border-style: none;
+   background-color: rgb(20, 20, 20);
+   border: 1px solid rgb(35, 35, 35);
+
+   &__second-name:focus{
+      outline: none;
+      border-bottom: 2px solid green;
+   }
+}
+
+
+
+.email__input{
+   float: left;
+   width: 50%;
+   height: 65px;
+   margin-bottom: 20px;
+}
+
+.label__email{
+   width: 40%;
+   font-size: 21px;
+   color: rgb(120, 120, 120);
+}
+
+.input__email{
+   width: 90%;
+   height: 60%;
+   padding: 4px;
+   font-size: 20px;
+   color: rgb(120, 120, 120);
+   text-decoration: none;
+   border-style: none;
+   background-color: rgb(20, 20, 20);
+   border: 1px solid rgb(35, 35, 35);
+
+   &__email:focus{
+      outline: none;
+      border-bottom: 2px solid green;
+   }
+}
+
+
+.message__input{
+   float: left;
+   width: 50%;
+   height: 165px;
+}
+
+.label__message{
+   width: 40%;
+   font-size: 21px;
+   color: rgb(120, 120, 120);
+}
+
+.input__message{
+   width: 90%;
+   height: 60%;
+   padding: 4px;
+   font-size: 20px;
+   color: rgb(120, 120, 120);
+   text-decoration: none;
+   border-style: none;
+   background-color: rgb(20, 20, 20);
+   border: 1px solid rgb(35, 35, 35);
+
+   &__message:focus{
+      outline: none;
+      border-bottom: 2px solid green;
+   }
+}

@@ -1,0 +1,27 @@
+.row{
+  position: relative;
+  top: 25%;
+  height: 400px;
+  max-width:100%;
+  margin:0 auto;
+
+  @include respond(tab-port){
+     top: 200px;
+ }
+}
+
+[class^="col-"]{
+  float:left;
+  }
+
+  [class^="col-"]:not(:last-child){
+    margin-right:50px;
+  }
+
+.col-1-of-3{
+  width:calc((100% - 2 * 50px) / 3);
+
+  @include respond(tab-port){
+     width:100%
+ }
+}

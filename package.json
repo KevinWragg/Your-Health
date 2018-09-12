@@ -1,0 +1,17 @@
+{
+  "name": "your-health",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss css/styles.css -w",
+    "live:server": "live-server",
+    "start": "npm-run-all --parallel watch:sass live:server"
+  },
+  "author": "Kevin Wragg",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.9.3",
+    "npm-run-all": "^4.1.3"
+  }
+}

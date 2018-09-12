@@ -1,0 +1,51 @@
+@keyframes slideOutLeft{
+   0%{
+      opacity: 1;
+      transform: translate(-50%, -50%);
+   }
+
+   100%{
+      opacity: 0;
+      transform: translate(-2000px, -50%);
+   }
+}
+
+@keyframes slideInRight{
+   0%{
+      opacity: 0;
+      transform: translate(2000px, -50%);
+   }
+
+   100%{
+      opacity: 1;
+      transform: translate(-50%, -50%);
+   }
+}
+
+@keyframes fadeInOverlay{
+   0%{
+      background-color: rgba(0, 0, 0, 0);
+   }
+
+   50%{
+      background-color: rgba(0, 0, 0, 0);
+   }
+
+   100%{
+      background-color: rgba(0, 0, 0, .8);
+   }
+}
+
+@keyframes fadeInContent{
+   0%{
+      opacity: 0;
+   }
+
+   50%{
+      opacity: 0;
+   }
+
+   100%{
+      opacity: 1;
+   }
+}

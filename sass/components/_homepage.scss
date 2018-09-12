@@ -1,0 +1,149 @@
+.homepage{
+   width: 100%;
+   height: 100%;
+
+   &__image--overlay{
+      height: 100%;
+      width: 100%;
+      background-color: rgba(0, 0, 0, .8);
+      animation-name: fadeInOverlay;
+      animation-duration: 4s;
+      animation-timing-function: ease-out;
+   }
+
+   &__image{
+      width: 100%;
+      height: 100%;
+      background-image: url("../images/header-image.jpg");
+      background-position: center;
+      background-size: cover;
+   }
+
+   &__image img{
+      width: 100%;
+   }
+}
+
+.intro{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   height: 400px;
+   width: 1000px;
+   transform: translate(-50%, -50%);
+   color: rgb(220, 220 ,220);
+
+   @include respond(small-desktop){
+         left: 55%;
+         width: 800px;
+   }
+
+   @include respond(tab-land){
+         left: 60%;
+         width: 650px;
+   }
+
+   @include respond(tab-port){
+         width: 550px;
+         left: 50%;
+   }
+
+   @include respond(phone){
+         width: 400px;
+   }
+
+   &__title{
+      box-sizing: border-box;
+      height: 20%;
+      text-align: center;
+      font-family: 'Dosis', sans-serif;
+      font-size: 25px;
+      overflow: hidden;
+
+      @include respond(small-desktop){
+            font-size: 23px;
+      }
+
+      @include respond(tab-land){
+            font-size: 21px;
+      }
+
+      @include respond(phone){
+            font-size: 19px;
+      }
+   }
+
+   &__text-container{
+      height: 60%;
+      text-align: center;
+      font-family: 'Lato', sans-serif;
+      font-size: 22px;
+      overflow: hidden;
+
+      @include respond(small-desktop){
+            font-size: 21px;
+      }
+
+      @include respond(tab-land){
+            font-size: 19px;
+      }
+
+      @include respond(phone){
+            height: 100%;
+            font-size: 17px;
+      }
+   }
+
+   &__text{
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+   }
+
+   &__next-btn{
+      text-align: center;
+      color: #00BFFF;
+      text-shadow: 2px 2px 4px rgb(40, 40, 40);
+      font-size: 35px;
+
+      @include respond(small-desktop){
+            font-size: 31px;
+      }
+
+      @include respond(tab-land){
+            font-size: 27px;
+      }
+   }
+}
+
+.dynamic-content{
+   height: 100%;
+   width: 100%;
+}
+
+.title-text{
+   border-bottom: 2px solid #00BFFF;
+}
+
+.next-btn{
+   cursor: pointer;
+}
+
+.next-btn:hover{
+   font-size: 36px;
+}
+
+.fade-in-content{
+   animation: fadeInContent;
+   animation-duration: 7s;
+}
+
+.slide-out-left{
+   animation-name: slideOutLeft;
+   animation-duration: 1s;
+}
+
+.slide-in-right{
+   animation-name: slideInRight;
+   animation-duration: 1s;
+}

@@ -1,0 +1,28 @@
+THRIVE PROJECT
+
+Thank you for taking the time to view my submission
+
+
+Given the time available I am not satisified with the current design, I consider design my weakest
+trait given my lack of experience, however I am confident in putting together an existing design from
+a template and I hope this project gives you some insight into my current development proficency.
+
+I opted to create a custom slider on the homepage, while I could have used a prebuilt slider template
+I took this as an opportunity to create a custom script, there are some little issues I would have
+addressed given enough time, namely the "next arrow" sliding with the content, and the content causing
+horizontal scroll bars, I attempted to hide the overflow but I believe I had issues due to the fact
+that I needed to select the stored html, rather than the current element on the page.
+
+The maps aspect ratio changes, this causes images distortion on the static image, as I understand it
+using the google map api would have addressed this issue, so the aspect ratio would not have been
+an issue on a live map.
+
+This is actually the first time using a vertical navbar, I usually opt for horizontal navbars and I
+don't think this design was ideal for having centralized content, which lead to having to push the
+contents to the right as the viewport got smaller.
+
+
+All in all I am looking for a junior role in the hope to grow my knowledge alongside more experienced
+developers, thanks again for your consideration.
+
+Kevin Wragg
