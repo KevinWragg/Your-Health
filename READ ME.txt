@@ -3,9 +3,12 @@ THRIVE PROJECT
 Thank you for taking the time to view my submission
 
 
-Given the time available I am not fully satisified with the current design, I usually take the longest
-time considering a design than I do in the implementation so given the time constraints this was I came
-up with.
+Please be aware that I have not fully tested the site for compatability with all browsers (developed
+using chrome), and there may be some bugs/tweeks that I would have made given the time to do more
+extensive testing.
+
+I am not fully satisified with the current design, I usually take the longest time considering a design
+than I do in the implementation, so given the time constraints this was I came up with.
 
 I opted to create a custom slider on the homepage, while I could have used a prebuilt slider template
 I took this as an opportunity to create a custom script, there are some little issues I would have
