@@ -3,9 +3,9 @@ THRIVE PROJECT
 Thank you for taking the time to view my submission
 
 
-Given the time available I am not satisified with the current design, I consider design my weakest
-trait given my lack of experience, however I am confident in putting together an existing design from
-a template and I hope this project gives you some insight into my current development proficency.
+Given the time available I am not fully satisified with the current design, I usually take the longest
+time considering a design than I do in the implementation so given the time constraints this was I came
+up with.
 
 I opted to create a custom slider on the homepage, while I could have used a prebuilt slider template
 I took this as an opportunity to create a custom script, there are some little issues I would have
@@ -17,12 +17,12 @@ The maps aspect ratio changes, this causes images distortion on the static image
 using the google map api would have addressed this issue, so the aspect ratio would not have been
 an issue on a live map.
 
-This is actually the first time using a vertical navbar, I usually opt for horizontal navbars and I
-don't think this design was ideal for having centralized content, which lead to having to push the
-contents to the right as the viewport got smaller.
+I considered that making a top to bottom navbar may have been a better choice, I usually opt for horizontal
+navbars and I don't think this design was ideal for having centralized content, which lead to having to push
+the contents to the right as the viewport gets smaller.
 
 
-All in all I am looking for a junior role in the hope to grow my knowledge alongside more experienced
-developers, thanks again for your consideration.
+All in all I am looking for a junior role and im eager to work in a team with other developers with the hope to
+grow my knowledge and experience, thanks again for your consideration.
 
 Kevin Wragg
